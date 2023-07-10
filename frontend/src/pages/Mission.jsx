@@ -5,6 +5,11 @@ import {
   faBandage,
   faHospital,
 } from "@fortawesome/free-solid-svg-icons";
+import docImg from "../../frontpic/Doctors-cuate.png";
+import hero from "../../frontpic/HITRacialJusticeHero.jpg";
+import patient from "../../frontpic/patient.png";
+import med from "../../frontpic/med.png";
+import peds from "../../frontpic/peds.png";
 
 export default function Mission() {
   const element = <FontAwesomeIcon icon={faStethoscope} />;
@@ -15,7 +20,7 @@ export default function Mission() {
         <h1>What is</h1>
         <h1 className="carecompanion">CareCompanion?</h1>
         <div className="practice">
-          <img className="doctorImg" src="./frontpic/Doctors-cuate.png"></img>
+          <img className="doctorImg" src={docImg}></img>
         </div>
       </article>
       <article className="box2">
@@ -37,7 +42,7 @@ export default function Mission() {
         </div>
         <div className="rightbox">
           <img
-            src="https://www.healthcareitnews.com/sites/hitn/files/HITRacialJusticeHero.jpg"
+            src={hero}
             style={{ width: "70vh" }}
           />
         </div>
@@ -54,7 +59,7 @@ export default function Mission() {
           <h1 className="facts_stories">Facts & Stories</h1>
 
           <article className="firstStory">
-            <img className="doctorStoryimg" src="./frontpic/patient.png" />
+            <img className="doctorStoryimg" src={patient} />
             <p className="story">
               {" "}
               A young Black woman named Maya entered the healthcare system
@@ -69,7 +74,7 @@ export default function Mission() {
           </article>
 
           <article className="secondStory">
-            <img className="doctorStoryimg" src="./frontpic/med.png" />
+            <img className="doctorStoryimg" src={med} />
             <p className="story1">
               Carlos, a Hispanic man, faced language barriers when seeking
               medical care for his elderly parents. The lack of bilingual
@@ -83,7 +88,7 @@ export default function Mission() {
           </article>
 
           <article className="firstStory">
-            <img className="doctorStoryimg" src="./frontpic/peds.png" />
+            <img className="doctorStoryimg" src={peds} />
             <p className="story">
               In a rural community predominantly inhabited by Native Americans,
               Sarah, a young Indigenous woman, faced limited healthcare options
