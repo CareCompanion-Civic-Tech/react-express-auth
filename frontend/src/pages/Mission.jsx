@@ -20,7 +20,7 @@ export default function Mission() {
         <h1>What is</h1>
         <h1 className="carecompanion">CareCompanion?</h1>
         <div className="practice">
-          <img className="doctorImg" src={docImg}></img>
+          <img src={docImg} className="doctorImg" />
         </div>
       </article>
       <article className="box2">
@@ -59,7 +59,7 @@ export default function Mission() {
           <h1 className="facts_stories">Facts & Stories</h1>
 
           <article className="firstStory">
-            <img className="doctorStoryimg" src={patient} />
+            <img src={patient} className="doctorStoryimg" />
             <p className="story">
               {" "}
               A young Black woman named Maya entered the healthcare system
@@ -74,7 +74,7 @@ export default function Mission() {
           </article>
 
           <article className="secondStory">
-            <img className="doctorStoryimg" src={med} />
+            <img src={med} className="doctorStoryimg" />
             <p className="story1">
               Carlos, a Hispanic man, faced language barriers when seeking
               medical care for his elderly parents. The lack of bilingual
@@ -88,7 +88,7 @@ export default function Mission() {
           </article>
 
           <article className="firstStory">
-            <img className="doctorStoryimg" src={peds} />
+            <img src={peds} className="doctorStoryimg" />
             <p className="story">
               In a rural community predominantly inhabited by Native Americans,
               Sarah, a young Indigenous woman, faced limited healthcare options
